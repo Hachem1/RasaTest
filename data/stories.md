@@ -34,3 +34,9 @@
 
 * thanking
     - utter_thanks_response
+
+## New Story
+
+* greet
+    - utter_greet
+    - utter_how_can_i_help

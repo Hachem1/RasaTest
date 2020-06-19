@@ -10,6 +10,8 @@ intents:
 - mood_unhappy
 - bot_challenge
 - thanking
+- time
+- open
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -26,6 +28,8 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_thanks_response:
   - text: No problem 👍
+  utter_how_can_i_help:
+  - text: How can i help you today?
 actions:
 - utter_greet
 - utter_cheer_up
@@ -34,3 +38,4 @@ actions:
 - utter_goodbye
 - utter_iamabot
 - utter_thanks_response
+- utter_how_can_i_help
