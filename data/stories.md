@@ -29,3 +29,8 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## New Story
+
+* thanking
+    - utter_thanks_response

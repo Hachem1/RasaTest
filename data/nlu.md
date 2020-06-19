@@ -5,6 +5,13 @@
 - good morning
 - good evening
 - hey there
+- hellooo
+- bonjour
+- hola
+- Assalam alaykum
+- heyyyy
+- hiii
+- heyy
 
 ## intent:goodbye
 - bye
@@ -54,3 +61,20 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:thanking
+- thanks
+- thank you
+
+## intent:time
+- what's the time?
+- time?
+
+## intent:open
+- openn
+- are you open
+- open
+- can I come in?
+- is you open
+- are you open?
+- open?
