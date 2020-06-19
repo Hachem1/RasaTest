@@ -40,3 +40,9 @@
 * greet
     - utter_greet
     - utter_how_can_i_help
+
+## New Story
+
+* greet
+    - utter_greet
+    - utter_how_can_i_help
