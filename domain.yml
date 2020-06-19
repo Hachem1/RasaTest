@@ -35,3 +35,4 @@ actions:
 - utter_thanks_response
 - utter_how_can_i_help
 - utter_open_times
+- action_hello_world
