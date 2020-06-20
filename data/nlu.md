@@ -29,3 +29,6 @@
 
 ## intent:goodbye
 - bye
+
+## intent:covid
+- covid

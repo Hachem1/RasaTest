@@ -8,6 +8,7 @@ intents:
 - are_you_bot
 - goodbye
 - HelloWorldRequest
+- covid
 responses:
   utter_did_that_help:
   - text: Did that help you?
@@ -26,6 +27,10 @@ responses:
   - text: We are open Monday to Friday 9:00am to 7:00pm
   utter_thanks_response:
   - text: No problem 👍
+  utter_covid_responce:
+  - text: GenXt project is now running a full schedule of online classes covering
+      a mixture of introductory, intermediate, and advanced support and guidance sessions.
+      We welcome all newcomers; no previous experience or qualifications are required.
 actions:
 - utter_did_that_help
 - utter_goodbye
@@ -36,3 +41,4 @@ actions:
 - utter_thanks_response
 - action_hello_world
 - action_get_time
+- utter_covid_responce
