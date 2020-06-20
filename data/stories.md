@@ -234,3 +234,21 @@
     - utter_open_times
 * open
     - utter_open_times
+
+## New Story
+
+* covid
+    - utter_covid_responce
+
+## New Story
+
+* covid
+    - utter_covid_responce
+
+## New Story
+
+* greet
+    - utter_greet
+    - utter_how_can_i_help
+* covid
+    - utter_covid_responce

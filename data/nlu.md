@@ -32,3 +32,4 @@
 
 ## intent:covid
 - covid
+- corona
