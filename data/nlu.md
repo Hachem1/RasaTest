@@ -16,6 +16,7 @@
 - what time are you open
 - opem
 - what time u open?
+- what time are you open?
 
 ## intent:time
 - time
@@ -47,6 +48,9 @@
 
 ## intent:what_bot_does
 - what else do you do?
+- what do you do?
+- What do you do?
 
 ## intent:gratitude
 - thanks
+- that's nice

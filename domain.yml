@@ -9,7 +9,6 @@ intents:
 - goodbye
 - HelloWorldRequest
 - covid
-- start
 - 21st_Century_Skills
 - what_bot_does
 - gratitude

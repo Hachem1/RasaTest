@@ -243,3 +243,18 @@
 * 21st_Century_Skills
     - utter_about_21st
     - utter_21st_what_can_i_do
+
+## New Story
+
+* what_bot_does
+    - utter_what_does_bot_do
+
+## New Story
+
+* gratitude
+    - utter_gratitude_response
+
+## New Story
+
+* what_bot_does
+    - utter_what_does_bot_do
