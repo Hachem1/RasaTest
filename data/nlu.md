@@ -4,6 +4,7 @@
 - hey
 - heyy
 - Hello world
+- helo
 
 ## intent:open
 - open
@@ -12,6 +13,7 @@
 - when time do you open
 - what time
 - what time are you open
+- opem
 
 ## intent:time
 - time
@@ -33,3 +35,7 @@
 ## intent:covid
 - covid
 - corona
+
+## intent:21st_Century_Skills
+- 21st Century Skills
+- 21st

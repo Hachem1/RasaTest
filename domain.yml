@@ -9,6 +9,8 @@ intents:
 - goodbye
 - HelloWorldRequest
 - covid
+- start
+- 21st_Century_Skills
 responses:
   utter_did_that_help:
   - text: Did that help you?
@@ -20,7 +22,10 @@ responses:
   - text: Hello 👋
   - text: Hi 👋
   utter_how_can_i_help:
-  - text: How can i help you today?
+  - buttons:
+    - payload: 21st Century Skills
+      title: 21st Century Skills
+    text: How can i help you today?
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_open_times:
@@ -31,6 +36,15 @@ responses:
   - text: GenXt project is now running a full schedule of online classes covering
       a mixture of introductory, intermediate, and advanced support and guidance sessions.
       We welcome all newcomers; no previous experience or qualifications are required.
+  utter_about_21st:
+  - text: Elizabeth House and Peoples Place Community Partnerships (PPCP) are working
+      together to support local people into employment through a flexible training
+      and work experience programme. Our aim is to enable local residents, with a
+      focus on young people, to gain industry recognised qualifications and benefit
+      from work place-based internships in voluntary and community organisations,
+      leading them into secure jobs.
+  utter_21st_what_can_i_do:
+  - text: What can I do for you today?
 actions:
 - utter_did_that_help
 - utter_goodbye
@@ -42,3 +56,5 @@ actions:
 - action_hello_world
 - action_get_time
 - utter_covid_responce
+- utter_about_21st
+- utter_21st_what_can_i_do
