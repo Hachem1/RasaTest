@@ -2,6 +2,8 @@
 - hi
 - hello
 - hey
+- heyy
+- Hello world
 
 ## intent:open
 - open
@@ -14,3 +16,4 @@
 
 ## intent:are_you_bot
 - Who are you?
+- who r you
