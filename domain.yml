@@ -3,35 +3,35 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - greet
-- goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
-- thanking
-- time
 - open
+- time
+- are_you_bot
+- goodbye
+- HelloWorldRequest
 responses:
-  utter_greet:
-  - text: Hey! How are you?
   utter_did_that_help:
   - text: Did that help you?
   utter_goodbye:
   - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
-  utter_thanks_response:
-  - text: No problem 👍
+  utter_greet:
+  - text: Hey!
+  - text: Hello
+  - text: Hi
   utter_how_can_i_help:
   - text: How can i help you today?
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
   utter_open_times:
   - text: We are open Monday to Friday 9:00am to 7:00pm
+  utter_thanks_response:
+  - text: No problem 👍
 actions:
-- utter_greet
 - utter_did_that_help
 - utter_goodbye
-- utter_iamabot
-- utter_thanks_response
+- utter_greet
 - utter_how_can_i_help
+- utter_iamabot
 - utter_open_times
+- utter_thanks_response
+- action_hello_world
+- action_get_time
