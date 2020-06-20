@@ -18,6 +18,7 @@
 - time?
 - Whats the time?
 - What is the time?
+- what is the time?
 
 ## intent:are_you_bot
 - Who are you?
@@ -25,3 +26,6 @@
 
 ## intent:HelloWorldRequest
 - HelloWorld!
+
+## intent:goodbye
+- bye

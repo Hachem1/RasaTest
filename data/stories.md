@@ -152,3 +152,15 @@
 
 * time
     - action_get_time
+
+## Story from conversation with 153d09d3b0a3448a9f1752841bbae776 on June 20th 2020
+
+* greet
+    - utter_greet
+    - utter_how_can_i_help
+* time
+    - action_get_time
+* open
+    - utter_open_times
+* greet
+    - utter_goodbye
