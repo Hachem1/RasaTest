@@ -17,3 +17,6 @@
 ## intent:are_you_bot
 - Who are you?
 - who r you
+
+## intent:HelloWorldRequest
+- HelloWorld!
