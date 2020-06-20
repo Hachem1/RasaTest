@@ -139,3 +139,16 @@
     - utter_open_times
 * time
     - utter_open_times
+
+## New Story
+
+* greet
+    - utter_greet
+    - utter_how_can_i_help
+* time
+    - action_get_time
+
+## New Story
+
+* time
+    - action_get_time
