@@ -9,6 +9,9 @@
 - open
 - open?
 - are you open
+- when time do you open
+- what time
+- what time are you open
 
 ## intent:time
 - time
