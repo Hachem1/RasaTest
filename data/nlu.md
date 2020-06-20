@@ -6,6 +6,7 @@
 - Hello world
 - helo
 - Hi Rasa
+- heyyy
 
 ## intent:open
 - open
@@ -17,6 +18,7 @@
 - opem
 - what time u open?
 - what time are you open?
+- can u come in
 
 ## intent:time
 - time
@@ -54,3 +56,6 @@
 ## intent:gratitude
 - thanks
 - that's nice
+
+## intent:agree
+- ahh ok
