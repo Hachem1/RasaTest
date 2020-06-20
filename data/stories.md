@@ -214,3 +214,13 @@
     - utter_open_times
 * goodbye
     - utter_goodbye
+
+## New Story
+
+* greet
+    - utter_greet
+    - utter_how_can_i_help
+* open
+    - utter_open_times
+* goodbye
+    - utter_goodbye

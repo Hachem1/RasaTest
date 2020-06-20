@@ -12,11 +12,12 @@ responses:
   utter_did_that_help:
   - text: Did that help you?
   utter_goodbye:
-  - text: Bye
+  - text: Bye 👋
+  - text: Goodbye 👋
   utter_greet:
   - text: Hey!
-  - text: Hello
-  - text: Hi
+  - text: Hello 👋
+  - text: Hi 👋
   utter_how_can_i_help:
   - text: How can i help you today?
   utter_iamabot:
