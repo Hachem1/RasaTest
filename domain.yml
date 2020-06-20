@@ -11,6 +11,8 @@ intents:
 - covid
 - start
 - 21st_Century_Skills
+- what_bot_does
+- gratitude
 responses:
   utter_did_that_help:
   - text: Did that help you?
@@ -45,6 +47,10 @@ responses:
       leading them into secure jobs.
   utter_21st_what_can_i_do:
   - text: What can I do for you today?
+  utter_what_does_bot_do:
+  - text: This bot is currently a work in progress.
+  utter_gratitude_response:
+  - text: No problem 👍
 actions:
 - utter_did_that_help
 - utter_goodbye
@@ -58,3 +64,5 @@ actions:
 - utter_covid_responce
 - utter_about_21st
 - utter_21st_what_can_i_do
+- utter_what_does_bot_do
+- utter_gratitude_response
