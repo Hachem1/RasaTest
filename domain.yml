@@ -84,6 +84,44 @@ responses:
   - text: https://elizabeth-house.org.uk/youngpeople/21cs/
   utter_ask_registration:
   - text: Would you like to  register your interest in PPCP?
+  utter_ask_full_name:
+  - text: What is your full name?
+  utter_ask_email:
+  - text: What is your email address?
+  utter_ask_phone_number:
+  - text: What is your phone number?
+  utter_work_status:
+  - buttons:
+    - payload: Studying at school
+      title: Studying at school
+    - payload: Studying at college
+      title: Studying at college
+    - payload: Studying at university
+      title: Studying at university
+    - payload: On a gap year
+      title: On a gap year
+    - payload: Working full time
+      title: Working full time
+    - payload: Working part time
+      title: Working part time
+    - payload: Not currently studying or working
+      title: Not currently studying or working
+    text: What is your current education/work status?
+  utter_ask_find_out:
+  - buttons:
+    - payload: Elizabeth House Community Centre
+      title: Elizabeth House Community Centre
+    - payload: London Village Network (LVN)
+      title: London Village Network (LVN)
+    - payload: Izzy-Info / Islington Directory
+      title: Izzy-Info / Islington Directory
+    - payload: Internet search
+      title: Internet search
+    - payload: Social media
+      title: Social media
+    - payload: Word of mouth
+      title: Word of mouth
+    text: How did you find out about us?
 actions:
 - utter_did_that_help
 - utter_goodbye
@@ -102,3 +140,8 @@ actions:
 - utter_web_address
 - utter_courses
 - utter_ask_registration
+- utter_ask_full_name
+- utter_ask_email
+- utter_ask_phone_number
+- utter_work_status
+- utter_ask_find_out
