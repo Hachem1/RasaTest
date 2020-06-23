@@ -2,6 +2,9 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- can_you_answer
+- most_populare_course
+- get_web_address
 - greet
 - open
 - time
@@ -12,6 +15,8 @@ intents:
 - 21st_Century_Skills
 - what_bot_does
 - gratitude
+- agree
+- courses
 responses:
   utter_did_that_help:
   - text: Did that help you?
@@ -50,6 +55,10 @@ responses:
   - text: This bot is currently a work in progress.
   utter_gratitude_response:
   - text: No problem 👍
+  utter_courses:
+  - text: Courses
+  utter_web_address:
+  - text: https://elizabeth-house.org.uk/youngpeople/21cs/
 actions:
 - utter_did_that_help
 - utter_goodbye
@@ -65,3 +74,5 @@ actions:
 - utter_21st_what_can_i_do
 - utter_what_does_bot_do
 - utter_gratitude_response
+- utter_web_address
+- utter_courses
