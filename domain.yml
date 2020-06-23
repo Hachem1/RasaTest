@@ -79,8 +79,6 @@ responses:
     text: What can I do for you today?
   utter_what_does_bot_do:
   - text: This bot is currently a work in progress.
-  utter_gratitude_response:
-  - text: No problem 👍
   utter_courses:
   - text: Courses
   utter_web_address:
@@ -137,7 +135,6 @@ actions:
 - utter_about_21st
 - utter_21st_what_can_i_do
 - utter_what_does_bot_do
-- utter_gratitude_response
 - utter_web_address
 - utter_courses
 - utter_ask_full_name
