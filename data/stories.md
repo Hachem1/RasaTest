@@ -258,3 +258,16 @@
 
 * what_bot_does
     - utter_what_does_bot_do
+
+## registraion Story
+* greet
+    - utter_greet
+    - utter_how_can_i_help
+* 21st_Century_Skills
+    - utter_about_21st
+    - utter_21st_what_can_i_do
+* registration
+    - registration_form
+    - form{"name": "registration_form"}
+    - form{"name": null}
+    - utter_slots_values

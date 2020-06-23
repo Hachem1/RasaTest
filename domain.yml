@@ -142,3 +142,4 @@ actions:
 - utter_ask_phone_number
 - utter_ask_work_status
 - utter_ask_find_out
+- registration_form
