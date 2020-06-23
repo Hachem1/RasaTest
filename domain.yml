@@ -17,6 +17,29 @@ intents:
 - gratitude
 - agree
 - courses
+- registration
+entities:
+- full_name
+- email_address
+- phone_number
+- status
+- find_out
+slots:
+  email_address:
+    type: unfeaturized
+    auto_fill: false
+  find_out:
+    type: unfeaturized
+    auto_fill: false
+  full_name:
+    type: unfeaturized
+    auto_fill: false
+  phone_number:
+    type: unfeaturized
+    auto_fill: false
+  status:
+    type: unfeaturized
+    auto_fill: false
 responses:
   utter_did_that_help:
   - text: Did that help you?

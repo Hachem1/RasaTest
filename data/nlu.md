@@ -86,5 +86,45 @@
 
 ## intent:get_web_address
 - Can you provide with the web address for 21cs?
-- heyyyy
 - link
+
+## intent:registration
+- [firstName lastName](full_name)
+- my name is [firstName lastName](full_name)
+- My name is [firstName lastName](full_name)
+- [firstName lastName](full_name) is my name
+- My full name is [firstName lastName](full_name)
+- [firstName lastName](full_name) is my full name
+- my full name is [firstName lastName](full_name)
+- full name: [firstName lastName](full_name)
+- full name [firstName lastName](full_name)
+- [example@example.co.uk](email_address)
+- my email address is [example@example.co.uk](email_address)
+- My email address is [example@example.co.uk](email_address)
+- my email is [example@example.co.uk](email_address)
+- My email is [example@example.co.uk](email_address)
+- [example@example.co.uk](email_address) is my email address
+- [example@example.co.uk](email_address) is my email
+- email: [example@example.co.uk](email_address)
+- email [example@example.co.uk](email_address)
+- email address [example@example.co.uk](email_address)
+- email address: [example@example.co.uk](email_address)
+- [example@example.com](email_address)
+- my email address is [example@example.com](email_address)
+- My email address is [example@example.com](email_address)
+- my email is [example@example.com](email_address)
+- My email is [example@example.com](email_address)
+- [example@example.com](email_address) is my email address
+- [example@example.com](email_address) is my email
+- email: [example@example.com](email_address)
+- email [example@example.com](email_address)
+- email address [example@example.com](email_address)
+- email address: [example@example.com](email_address)
+- [07777738283](phone_number)
+- phone number: [07777738283](phone_number)
+- my phone number is [07777738283](phone_number)
+- [07777738283](phone_number) is my phone number
+- number [07777738283](phone_number)
+- [07777738283](phone_number) is my number
+- [working](status)
+- [internet](find_out)
