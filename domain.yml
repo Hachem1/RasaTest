@@ -73,7 +73,10 @@ responses:
       from work place-based internships in voluntary and community organisations,
       leading them into secure jobs.
   utter_21st_what_can_i_do:
-  - text: What can I do for you today?
+  - buttons:
+    - payload: Registering your interest
+      title: Registering your interest
+    text: What can I do for you today?
   utter_what_does_bot_do:
   - text: This bot is currently a work in progress.
   utter_gratitude_response:
@@ -82,15 +85,13 @@ responses:
   - text: Courses
   utter_web_address:
   - text: https://elizabeth-house.org.uk/youngpeople/21cs/
-  utter_ask_registration:
-  - text: Would you like to  register your interest in PPCP?
   utter_ask_full_name:
   - text: What is your full name?
   utter_ask_email:
   - text: What is your email address?
   utter_ask_phone_number:
   - text: What is your phone number?
-  utter_work_status:
+  utter_ask_work_status:
   - buttons:
     - payload: Studying at school
       title: Studying at school
@@ -139,9 +140,8 @@ actions:
 - utter_gratitude_response
 - utter_web_address
 - utter_courses
-- utter_ask_registration
 - utter_ask_full_name
 - utter_ask_email
 - utter_ask_phone_number
-- utter_work_status
+- utter_ask_work_status
 - utter_ask_find_out
