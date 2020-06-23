@@ -82,6 +82,8 @@ responses:
   - text: Courses
   utter_web_address:
   - text: https://elizabeth-house.org.uk/youngpeople/21cs/
+  utter_ask_registration:
+  - text: Would you like to  register your interest in PPCP?
 actions:
 - utter_did_that_help
 - utter_goodbye
@@ -99,3 +101,4 @@ actions:
 - utter_gratitude_response
 - utter_web_address
 - utter_courses
+- utter_ask_registration
