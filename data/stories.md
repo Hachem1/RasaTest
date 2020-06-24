@@ -265,4 +265,3 @@
     - registration_form
     - form{"name": "registration_form"}
     - form{"name": null}
-    - utter_slots_values
