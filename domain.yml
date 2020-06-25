@@ -38,8 +38,6 @@ slots:
   phone_number:
     type: unfeaturized
     auto_fill: false
-  requested_slot:
-    type: unfeaturized
   status:
     type: unfeaturized
     auto_fill: false
