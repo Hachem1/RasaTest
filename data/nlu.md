@@ -9,6 +9,7 @@
 - hello there
 - hillo
 - helo rasa
+- heyyyy
 
 ## intent:open
 - open
@@ -24,6 +25,7 @@
 - r u open?
 - When are you open
 - when can I come in and find out more about this?
+- can I come in and find out more about this?
 
 ## intent:time
 - time
@@ -57,6 +59,7 @@
 - twenty first century skills
 - 21st century skills
 - 21 cent skills
+- skills
 
 ## intent:what_bot_does
 - what else do you do?
@@ -658,7 +661,7 @@
 - [On a gap year](status)
 - [Working full time](status)
 - [Working part time](status)
-- [Not currently studying or working](status)
+- [Not currently studying or working](find_out)
 - [Elizabeth House Community Centre](find_out)
 - [London Village Network (LVN)](find_out)
 - [Izzy-Info / Islington Directory](find_out)
@@ -669,3 +672,11 @@
 - [ali hachem](full_name)
 - [ali@hotmail.com](email_address)
 - [07402407883](phone_number)
+- jon smith
+- [07402407468](phone_number)
+- [alihachem-@hotmail.com](email_address)
+- [Ali Hachem](full_name)
+- [internet](find_out)
+- [07777778989](phone_number)
+- [07637287318](phone_number)
+- [firstname lastname](full_name)
