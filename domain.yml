@@ -38,6 +38,8 @@ slots:
   phone_number:
     type: unfeaturized
     auto_fill: false
+  requested_slot:
+    type: unfeaturized
   status:
     type: unfeaturized
     auto_fill: false
@@ -122,6 +124,8 @@ responses:
     - payload: Word of mouth
       title: Word of mouth
     text: How did you find out about us?
+  utter_slots_values:
+  - text: 'name: {full_name}\n'
 actions:
 - utter_did_that_help
 - utter_goodbye
@@ -144,3 +148,4 @@ actions:
 - utter_ask_work_status
 - utter_ask_find_out
 - registration_form
+- utter_slots_values
