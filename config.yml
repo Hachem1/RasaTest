@@ -5,3 +5,4 @@ policies:
 - name: FormPolicy
 - name: KerasPolicy
 - name: MappingPolicy
+- name: FallbackPolicy
