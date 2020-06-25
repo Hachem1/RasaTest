@@ -265,6 +265,7 @@
     - registration_form
     - form{"name": "registration_form"}
     - form{"name": null}
+    - utter_slogts_values
 
 ## New Story
 
@@ -367,5 +368,43 @@
 * registration{"find_out":"Izzy-Info / Islington Directory"}
     - registration_form
     - slot{"find_out":"Izzy-Info / Islington Directory"}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+
+## New Story
+
+* greet
+    - utter_greet
+    - utter_how_can_i_help
+* 21st_Century_Skills
+    - utter_about_21st
+    - utter_21st_what_can_i_do
+* registration
+    - registration_form
+    - form{"name":"registration_form"}
+    - slot{"requested_slot":"full_name"}
+* registration{"full_name":"ali hachem"}
+    - registration_form
+    - slot{"full_name":"ali hachem"}
+    - slot{"requested_slot":"email_address"}
+    - utter_ask_email
+* registration{"email_address":"ali@hotmail.com"}
+    - registration_form
+    - slot{"email_address":"ali@hotmail.com"}
+    - slot{"requested_slot":"phone_number"}
+* registration{"phone_number":"07645436787"}
+    - registration_form
+    - slot{"phone_number":"07645436787"}
+    - slot{"requested_slot":"status"}
+    - utter_ask_work_status
+    - registration_form
+    - slot{"requested_slot":"status"}
+* registration{"status":"Studying at university"}
+    - registration_form
+    - slot{"status":"Studying at university"}
+    - slot{"requested_slot":"find_out"}
+* registration{"find_out":"Internet search"}
+    - registration_form
+    - slot{"find_out":"Internet search"}
     - form{"name":null}
     - slot{"requested_slot":null}
