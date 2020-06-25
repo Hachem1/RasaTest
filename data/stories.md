@@ -265,7 +265,7 @@
     - registration_form
     - form{"name": "registration_form"}
     - form{"name": null}
-    - utter_slogts_values
+    - utter_slots_values
 
 ## New Story
 
@@ -279,132 +279,27 @@
     - registration_form
     - form{"name":"registration_form"}
     - slot{"requested_slot":"full_name"}
-* registration{"full_name":"firstname lastname"}
+* registration{"full_name":"ali hashem"}
     - registration_form
-    - slot{"full_name":"firstname lastname"}
+    - slot{"full_name":"ali hashem"}
     - slot{"requested_slot":"email_address"}
     - utter_ask_email
-* registration{"email_address":"example@example.com"}
+* registration{"email_address":"ali@.co.uk"}
     - registration_form
-    - slot{"email_address":"example@example.com"}
+    - slot{"email_address":"ali@.co.uk"}
     - slot{"requested_slot":"phone_number"}
-* registration{"phone_number":"07777738283"}
+* registration{"phone_number":"07878765454"}
     - registration_form
-    - slot{"phone_number":"07777738283"}
+    - slot{"phone_number":"07878765454"}
     - slot{"requested_slot":"status"}
     - utter_ask_work_status
+* registration{"status":"Working part time"}
     - registration_form
-    - slot{"requested_slot":"status"}
-
-## New Story
-
-* greet
-    - utter_greet
-    - utter_how_can_i_help
-* 21st_Century_Skills
-    - utter_about_21st
-    - utter_21st_what_can_i_do
-* registration
-    - registration_form
-    - form{"name":"registration_form"}
-    - slot{"requested_slot":"full_name"}
-* registration{"full_name":"firstname lastname"}
-    - registration_form
-    - slot{"full_name":"firstname lastname"}
-    - slot{"requested_slot":"email_address"}
-    - utter_ask_email
-* registration{"email_address":"example@example.com"}
-    - registration_form
-    - slot{"email_address":"example@example.com"}
-    - slot{"requested_slot":"phone_number"}
-    - utter_ask_phone_number
-* registration{"phone_number":"07777738283"}
-    - registration_form
-    - slot{"phone_number":"07777738283"}
-    - slot{"requested_slot":"status"}
-    - utter_ask_work_status
-* registration{"status":"working"}
-    - registration_form
-    - slot{"status":"working"}
+    - slot{"status":"Working part time"}
     - slot{"requested_slot":"find_out"}
-* registration{"find_out":"internet"}
+* registration{"find_out":"Elizabeth House Community Centre"}
     - registration_form
-    - slot{"find_out":"internet"}
+    - slot{"find_out":"Elizabeth House Community Centre"}
     - form{"name":null}
     - slot{"requested_slot":null}
-
-## New Story
-
-* greet
-    - utter_greet
-    - utter_how_can_i_help
-* 21st_Century_Skills
-    - utter_about_21st
-    - utter_21st_what_can_i_do
-* registration
-    - registration_form
-    - form{"name":"registration_form"}
-    - slot{"requested_slot":"full_name"}
-* registration{"full_name":"ali hachem"}
-    - registration_form
-    - slot{"full_name":"ali hachem"}
-    - slot{"requested_slot":"email_address"}
-    - utter_ask_email
-    - registration_form
-    - slot{"requested_slot":"email_address"}
-* registration{"email_address":"ali@hotmail.com"}
-    - registration_form
-    - slot{"email_address":"ali@hotmail.com"}
-    - slot{"requested_slot":"phone_number"}
-* registration{"phone_number":"07402407883"}
-    - registration_form
-    - slot{"phone_number":"07402407883"}
-    - slot{"requested_slot":"status"}
-    - utter_ask_work_status
-* registration{"status":"On a gap year"}
-    - registration_form
-    - slot{"status":"On a gap year"}
-    - slot{"requested_slot":"find_out"}
-* registration{"find_out":"Izzy-Info / Islington Directory"}
-    - registration_form
-    - slot{"find_out":"Izzy-Info / Islington Directory"}
-    - form{"name":null}
-    - slot{"requested_slot":null}
-
-## New Story
-
-* greet
-    - utter_greet
-    - utter_how_can_i_help
-* 21st_Century_Skills
-    - utter_about_21st
-    - utter_21st_what_can_i_do
-* registration
-    - registration_form
-    - form{"name":"registration_form"}
-    - slot{"requested_slot":"full_name"}
-* registration{"full_name":"ali hachem"}
-    - registration_form
-    - slot{"full_name":"ali hachem"}
-    - slot{"requested_slot":"email_address"}
-    - utter_ask_email
-* registration{"email_address":"ali@hotmail.com"}
-    - registration_form
-    - slot{"email_address":"ali@hotmail.com"}
-    - slot{"requested_slot":"phone_number"}
-* registration{"phone_number":"07645436787"}
-    - registration_form
-    - slot{"phone_number":"07645436787"}
-    - slot{"requested_slot":"status"}
-    - utter_ask_work_status
-    - registration_form
-    - slot{"requested_slot":"status"}
-* registration{"status":"Studying at university"}
-    - registration_form
-    - slot{"status":"Studying at university"}
-    - slot{"requested_slot":"find_out"}
-* registration{"find_out":"Internet search"}
-    - registration_form
-    - slot{"find_out":"Internet search"}
-    - form{"name":null}
-    - slot{"requested_slot":null}
+    - utter_slots_values

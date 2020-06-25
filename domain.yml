@@ -125,7 +125,7 @@ responses:
       title: Word of mouth
     text: How did you find out about us?
   utter_slots_values:
-  - text: 'name: {full_name}\n'
+  - text: '{full_name}, {email_address}, {phone_number}, {status}, {find_out}'
 actions:
 - utter_did_that_help
 - utter_goodbye
