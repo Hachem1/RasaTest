@@ -90,8 +90,9 @@
 
 ## intent:registration
 - [firstName lastName](full_name)
-- my name is [firstName lastName](full_name)
-- My name is [firstName lastName](full_name)
+- [john smith](full_name)
+- my name is [ali hachem](full_name)
+- My name is [john smith](full_name)
 - [firstName lastName](full_name) is my name
 - My full name is [firstName lastName](full_name)
 - [firstName lastName](full_name) is my full name
@@ -134,4 +135,3 @@
 - [07637287318](phone_number)
 - [07777778989](phone_number)
 - [Working full time](status)
-- ali hachem
